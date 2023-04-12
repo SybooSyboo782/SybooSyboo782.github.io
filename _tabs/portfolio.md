@@ -1,5 +1,5 @@
 ---
-title: Portpolio
+title: portfolio
 icon: fas fa-info
 order: 4
 ---
