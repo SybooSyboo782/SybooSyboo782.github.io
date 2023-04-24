@@ -31,6 +31,23 @@ order: 5
 
 <div class="containerE">
     <div class="period">
+        <span>2022-04-24 ~ </span>
+        <span class="term">? 년</span>
+    </div>
+    <div class="content">
+        <h3>나일소프트</h3>
+        <div>
+            <span>나일소프트에서 ? 팀 업무 수행, 현재는 수습사원
+            <br>
+            <br>
+            수습사원
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="containerE">
+    <div class="period">
         <span>2022-05-01 ~ 2022-12-01</span>
         <span class="term">7 개월</span>
     </div>
