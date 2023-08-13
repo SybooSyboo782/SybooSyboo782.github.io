@@ -63,4 +63,4 @@ mermaid: true
 ### 출처
 - [MDN](https://developer.mozilla.org/ko/)
 - [코딩앙마 유튜브](https://youtube.com/codingangma/)
-- [모던 자바스크립트](ko.javascript.info)
+- [모던 자바스크립트](https://ko.javascript.info)
