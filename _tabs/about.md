@@ -1,4 +1,5 @@
 ---
+layout: default
 icon: fas fa-info
 order: 5
 ---
@@ -25,22 +26,22 @@ order: 5
     font-weight: 500;}
 </style>
 
-안녕하세요! 저는 백엔드 개발자를 꿈꾸는 부시연입니다.
+안녕하세요! 저는 초보 개발자 부시연입니다.
 
 ## Experience
 
 <div class="containerE">
     <div class="period">
         <span>2023-04-24 ~ </span>
-        <span class="term">? 년</span>
+        <span class="term">재직 중</span>
     </div>
     <div class="content">
-        <h3>나일소프트</h3>
+        <h3><a href="http://secuguard.co.kr/">나일소프트</a></h3>
         <div>
-            <span>나일소프트에서 ? 팀 업무 수행, 현재는 수습사원
+            <span>나일소프트에서 PCM 팀 업무 수행
             <br>
             <br>
-            수습사원
+            사원
             </span>
         </div>
     </div>
@@ -52,7 +53,7 @@ order: 5
         <span class="term">7 개월</span>
     </div>
     <div class="content">
-        <h3>메타버스 아카데미 1기</h3>
+        <h3><a href="https://mtvs.kr/user/main">메타버스 아카데미 1기</a> </h3>
         <div>
             <span>한국진흥원에서 운영하는 교육 과정 수료
             <br>
