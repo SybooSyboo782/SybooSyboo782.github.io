@@ -15,13 +15,6 @@ order: 4
     margin: 20px 0;
     padding: 10px;
     transition: box-shadow 0.3s,border-color 0.3s;}
-[class*="imgContainer"] {display: flex;
-    display: inline-block;
-    max-width: 100%;
-    overflow: hidden;
-    position: relative;
-    box-sizing: border-box;
-    margin: 0px;}
 [class*="nameContainer"] {
     align-items: center;
     width: 220px;
@@ -40,20 +33,6 @@ order: 4
         .contentContainer {display: none;}
         .cardContainer{ width: 400px;}
     }
-[class*="image"] {
-    visibility: inherit;
-    inset: 0px;
-    box-sizing: border-box;
-    padding: 0px;
-    border: none;
-    margin: 0 !important;
-    display: block;
-    height: 0px;
-    min-width: 100%;
-    max-width: 100%;
-    min-height: 100%;
-    max-height: 100%;
-}
 [class*="h1"]{
 font-weight:bolder;
 font-size: 30px;
@@ -67,11 +46,8 @@ font-size: 15px;
 # 그룹 프로젝트
 
 <div class=cardContainer>
-    <div class=imgContainer>
-        <img src='' class=image/>
-    </div>
     <div class=nameContainer>
-        <span class="h1">SORHIVE</span> <br />
+        <span class="h1"><a href="https://github.com/MA-Dot-COM/Intro">SORHIVE</a></span> <br />
         <span class="h2">공간을 활용한 SNS</span> <br />
         <span>2022-10-17 ~ 2022-11-29</span>
     </div>
@@ -84,11 +60,8 @@ font-size: 15px;
     </div>
 </div>
 <div class=cardContainer>
-    <div class=imgContainer>
-        <img src='' class=image/>
-    </div>
     <div class=nameContainer>
-        <span class="h1">ANT</span> <br />
+        <span class="h1"><a href="https://github.com/SybooSyboo782/AntJumpCollaborationTool">ANT</a></span> <br />
         <span class="h2">협업툴</span> <br />
         <span>2022-07-04 ~ 2022-10-14</span>
     </div>
@@ -101,9 +74,6 @@ font-size: 15px;
     </div>
 </div>
 <div class=cardContainer>
-    <div class=imgContainer>
-        <img src='' class=image/>
-    </div>
     <div class=nameContainer>
         <span class="h1">Ditto</span> <br />
         <span class="h2">벡터 검색 SNS</span> <br />

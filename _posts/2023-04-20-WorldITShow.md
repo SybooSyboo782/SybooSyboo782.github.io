@@ -15,7 +15,7 @@ pin: true
 
 ## [World IT 전시회 2023 유튜브](https://www.youtube.com/watch?v=clNhzd49lW4)
 
-<img src="../assets/img/worldITShow2023.jpg">
+<img src="../assets/img/worldITShow2023.jpg" alt="전시회 사진">
 
 ## 후기
 - [개발자 일정](https://github.com/brave-people/Dev-Event) 을 보는데 WorldITShow 2023을 개최 한다는 소식을 듣고 나서, 
