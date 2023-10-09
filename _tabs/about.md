@@ -47,7 +47,7 @@ font-size: 15px;
 
 <div class=cardContainer>
     <div class=nameContainer>
-        <span class="h1"><a href="http://secuguard.co.kr/">나일소프트</a></span> <br />
+        <span class="h1">나일소프트</span> <br />
         <span class="h2">PCM팀</span> <br />
         <span>2023-04-24 ~ </span>
     </div>
