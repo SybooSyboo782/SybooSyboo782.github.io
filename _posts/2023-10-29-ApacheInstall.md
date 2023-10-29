@@ -21,11 +21,12 @@ mermaid: true
 # 2. 아파치(Apache) 수동 설치
 
     1. ServerRoot : /usr/local/apache
-    2. winscp 또는 filezilla와 같은 ftp 서버를 이용하여 파일을 전달
-      1) mkdir /tmp
-      2) cd /tmp
+    2. 각 파일들 링크 클릭 후 다운로드
+    3. winscp 또는 filezilla와 같은 ftp 서버를 이용하여 파일을 전달
+      1) mkdir -p /tmp/lib
+      2) cd /tmp/lib
       3) tar zxfv 파일이름
-    3. 압축 해제 후 설치 순서에 맞게 설치하기
+    4. 압축 해제 후 설치 순서에 맞게 설치하기
 
 ### 1. [m4](https://ftp.gnu.org/gnu/m4/)
     1. cd /tmp/lib/m4-1.4.19
