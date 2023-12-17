@@ -2,7 +2,7 @@
 
   # Chirpy Jekyll Theme
 
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
 
   [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)][gem]&nbsp;
   [![CI](https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml/badge.svg?branch=master&event=push)][ci]&nbsp;
@@ -55,22 +55,51 @@ For details, see the "[Contributing Guidelines][contribute-guide]".
 
 ## Credits
 
-This project is mainly built with [Jekyll][jekyllrb] ecosystem,
+### Maintainers
+
+Thanks to the maintainers for driving the project!
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://github.com/cotes2020">
+          <img src="https://avatars.githubusercontent.com/u/11371340" width="80" height="80" alt="@cotes2020"><br>
+          <sub><b>Cotes Chung</b></sub>
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/chuckhoupt">
+          <img src="https://avatars.githubusercontent.com/u/1627217" width="80" height="80" alt="@chuckhoupt"><br>
+          <sub><b>Chuck Houpt</b></sub>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Contributors
+
+Thanks to all the [contributors][contributors] involved in the development of the project!
+
+[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]  
+<sub>_Made with [contrib.rocks](https://contrib.rocks)_.</sub>
+
+### Third-Party Assets
+
+This project was built primarily with the [Jekyll][jekyllrb] ecosystem,
 [Bootstrap][bootstrap], [Font Awesome][icons], and some other [wonderful tools][lib].
-The avatar and favicon design come from [Clipart Max][image].
 
-Many thanks to the [contributors][contributors] who participated in the development
-and to the folks who reported bugs or shared ideas.
+The source code was developed using [VS Code][vscode] by [Microsoft][ms] and [WebStrom][webstorm] by [JetBrains][jetbrains].
 
-Last but not least, thanks to [JetBrains][jetbrains] for providing the _Open Source License_.
+The project site's avatar and favicon are from [Clipart Max][image].
 
 ## Sponsoring
 
 If you like this project or have built something through it, please consider sponsoring it, and your support would be greatly appreciated.
 
-[![Ko-fi](https://img.shields.io/badge/Support_Me_on_Ko--fi-ff5e5b?logo=ko-fi&logoColor=white)][ko-fi]&nbsp;
-[![Wechat Pay](https://img.shields.io/badge/Support_Me_on_WeChat-brightgreen?logo=wechat&logoColor=white)][donation]&nbsp;
-[![Alipay](https://img.shields.io/badge/Support_Me_on_Alipay-blue?logo=alipay&logoColor=white)][donation]
+- [Support Me on **Ko-fi**][ko-fi]
+- [Support Me on **WeChat Pay** / **Alipay**][donation]
 
 ## License
 
@@ -89,6 +118,9 @@ This project is published under [MIT License][license].
 [contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
 [contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
 [lib]: https://github.com/cotes2020/chirpy-static-assets
+[ms]: https://www.microsoft.com/
+[vscode]: https://code.visualstudio.com/
+[webstorm]: https://www.jetbrains.com/webstorm/
 [jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
 [ko-fi]: https://ko-fi.com/coteschung/
 [donation]: https://sponsor.cotes.page/
