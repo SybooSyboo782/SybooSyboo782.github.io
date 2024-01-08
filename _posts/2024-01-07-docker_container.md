@@ -12,29 +12,41 @@ mermaid: true
 ![도커 이미지](../assets/img/docker/docker.png)
 
 ## Container 관련 명령어 정리
-
 - docker ps, docker container ls
-  > 실행 중인 컨테이너 목록을 표시한다.
-- docker stop, docker container stop
-  > 실행 중인 컨테이너를 정지한다.
-- docker start, docker container start
-  > 정지된 컨테이너를 시작한다
-- docker restart, docker container restart
-  > 컨테이너를 재시작한다.
+  > 실행 중인 컨테이너 목록을 표시한다. <br/>
+  ![docker ps.png](../assets/img/docker/container/docker%20ps.png)
+- docker stop, docker container stop 
+  > 실행 중인 컨테이너를 정지한다. <br/>
+  ![docker stop.png](../assets/img/docker/container/docker%20stop.png)
+- docker start, docker container start 
+  > 정지된 컨테이너를 시작한다 <br/>
+  ![docker start.png](../assets/img/docker/container/docker%20start.png)
+- docker restart, docker container restart 
+  > 컨테이너를 재시작한다. <br/>
+  ![docker restart.png](../assets/img/docker/container/docker%20restart.png)
 - docker rm, docker container rm
-  > 하나 이상의 컨테이너를 삭제한다.
+  > 하나 이상의 컨테이너를 삭제한다. <br/>
+  ![docker rm.png](../assets/img/docker/container/docker%20rm.png)
 - docker exec 
-  > 실행 중인 컨테이너에서 명령어를 실행한다.
-- docker exec -it
-  > 대화형 모드로 실행중인 컨테이너에 연결한다.
+  > 실행 중인 컨테이너에서 명령어를 실행한다. <br/>
+  ![docker exec.png](../assets/img/docker/container/docker%20exec.png)
+- docker exec -it /bin/bash
+  > 대화형 모드로 실행중인 컨테이너에 연결한다. <br/>
+  > OCI runtime exec failed: exec failed: container_linux.go:349: starting container process caused "exec: \"/bin/bash\": stat /bin/bash: no such file or directory": unknown <br/>
+  > 해당 오류가 뜨면 /bin/bash를 지원하지 않으니 /bin/sh을 이용하면 된다. <br/>
+  ![docker exec-it.png](../assets/img/docker/container/docker%20exec-it.png)
 - docker logs
-  > 컨테이너의 로그를 표시한다.
+  > 컨테이너의 로그를 표시한다. <br/>
+  ![docker logs.png](../assets/img/docker/container/docker%20logs.png)
 - docker inspect
-  > 컨테이너에 대한 세부 정보를 JSON 형식으로 출력한다.
+  > 컨테이너에 대한 세부 정보를 JSON 형식으로 출력한다. <br/>
+  ![docker inspect.png](../assets/img/docker/container/docker%20inspect.png)
 - docker top
-  > 컨테이너에서 실행중니 프로세스 목록을 표시한다.
+  > 컨테이너에서 실행중니 프로세스 목록을 표시한다. <br/>
+  ![docker top.png](../assets/img/docker/container/docker%20top.png)
 - docker stats
-  > 컨테이너의 실시간 리소스 사용량을 표시한다.
+  > 컨테이너의 실시간 리소스 사용량을 표시한다. <br/>
+  ![docker stat.png](../assets/img/docker/container/docker%20stat.png)
 - docker cp, docker container cp
   > 호스트와 컨테이너 간에 파일을 복사한다.
 - docker kill, docker container kill
