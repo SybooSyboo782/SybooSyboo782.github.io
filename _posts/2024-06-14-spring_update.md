@@ -36,10 +36,11 @@ mermaid: true
   </plugin>
   ```
 - gradle(build.gradle 에 작성)
-  ```xml
+  ```groovy
   tasks.withType<JavaCompile>() {
     options.compilerArgs.add("-parameters")
   }
+  ```
 - Intellij
   1. IntelliJ 에서 File -> Settings를 연다
   2. Build, Execution, Deployment → Compiler → Java Compiler로 이동
@@ -51,4 +52,5 @@ mermaid: true
 ### 출처
 - [나무위키](https://namu.wiki/)
 - [spring 문서](https://spring.io/projects)
-- [spring boot github](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.3-Release-Notes)
+- [spring github wiki](https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-6.x)
+- [spring boot github wiki](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.3-Release-Notes)
