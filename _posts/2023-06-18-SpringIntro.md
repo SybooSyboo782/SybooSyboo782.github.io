@@ -3,7 +3,7 @@ title: 스프링 소개
 author: syboosyboo
 date: 2023-06-18 14:17:00 +0900
 categories: [Back-End]
-tags: [SPRING, EJB]
+tags: [Spring, EJB]
 pin: true
 math: true
 mermaid: true
