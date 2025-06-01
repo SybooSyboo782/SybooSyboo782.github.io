@@ -19,7 +19,6 @@ order: 5
     margin: auto;    }
 [class*="contentContainer"] {
     width:300px;
-    box-align:center;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -47,15 +46,21 @@ font-size: 15px;
 
 <div class=cardContainer>
     <div class=nameContainer>
-        <span class="h1">나일소프트</span> <br />
-        <span class="h2">PCM팀</span> <br />
-        <span>2023-04-24 ~ </span>
+        <span class="h1"><a href="https://www.nilesoft.co.kr/">나일소프트</a></span> <br />
+        <span class="h2">PCM 팀</span> <br />
+        <span>2023-04-24 ~ 2025-05-30</span>
     </div>
     <div class=contentContainer>
     <br/>
     나일소프트에서 PCM 팀 업무 수행
     <br/>
-    수습 3개월 후, 사원 전환
+    - Java, Spring 기반의 백엔드 시스템 개발
+    <br/>
+    - PostgreSQL 을 활용한 데이터 모델링 및 쿼리 최적화
+    <br/>
+    - JavaScript, jQuery, Bootstrap을 이용한 UI 구현 및 사용자 인터랙션 처리
+    <br/>
+    - Jenkins 기반의 CI 파이프라인 구축 및 테스트 자동화
     </div>
 </div>
 
