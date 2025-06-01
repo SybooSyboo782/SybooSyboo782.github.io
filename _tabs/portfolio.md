@@ -1,6 +1,6 @@
 ---
 title: portfolio
-icon: fas fa-info
+icon: fas fa-briefcase
 order: 4
 ---
 
